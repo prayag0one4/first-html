@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <label for="Male">choose your gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <label for="language">Select your language:</label>
+        <div>
+            <input type="checkbox" id="language" name="language" value="yes">
+            <label for="language">Hindi</label>
+        </div>
+        <input type="checkbox" id="language" name="language" value="yes">
+        <label for="language">English</label>
+        <div>
+            <label for="mobile number">Enter your mobile number:</label>
+            <div>
+                <input type="number" id="mobile number" name="mobile number" placeholder="Enter your mobile number" required>
+            </div>
+            <label for="comment">Enter your comment here.......</label>
+        </div>
+        <textarea name="comment" id="comment" cols="30" rows="10">
+
+        </textarea>
+        <div>
+            <select name="class">
+                <option value="select a class">select a class</option>
+            <option value="11th class">11th class</option>
+            <option value="12th class">12th class</option>
+            <option value="droper">droper</option>
+        </select>
+        </div>
+    </form>
+</body>
+
+</html>
